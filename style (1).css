@@ -1,0 +1,40 @@
+*{
+   margin: 0px;
+   padding: 0px;
+  
+}
+.bg {
+    background-image: url('/images/c75b637b75164c44e33ced5b8f908340.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+    
+body{
+    background-color:rgb(192, 154, 147)
+
+}
+h1{
+    margin-top: 100px;
+   font-family: Arial, Helvetica, sans-serif; 
+   text-align: center;
+   
+}
+
+p{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+.container{
+   
+     top:50%; 
+     left:50%;
+     position: absolute;
+     transform:translate(-50%,-50%)
+     
+}
+.container form p{
+    margin: 10px;
+}
